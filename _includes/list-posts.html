@@ -1,0 +1,8 @@
+<ul class="articles">
+    {% for item in site.categories.posts %}
+    <li>
+        {{ item.date | date: '%B %e, %Y' }}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

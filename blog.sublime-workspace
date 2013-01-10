@@ -1,0 +1,783 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inline"
+			],
+			[
+				"noti",
+				"notifications"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"oldStrok",
+				"oldStrokeWidth"
+			],
+			[
+				"show",
+				"showPicker"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"sel",
+				"selectedColor"
+			],
+			[
+				"rb",
+				"rgbaStr"
+			],
+			[
+				"back",
+				"backgroundColor"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"lo",
+				"localMediaStream"
+			],
+			[
+				"p",
+				"points"
+			],
+			[
+				"_",
+				"_pathCurveTo"
+			],
+			[
+				"prev",
+				"previous"
+			],
+			[
+				"rect",
+				"rectangle"
+			],
+			[
+				"statu",
+				"statusTimer"
+			],
+			[
+				"pa",
+				"pageX"
+			],
+			[
+				"de",
+				"deltaX"
+			],
+			[
+				"tog",
+				"toggleGrid"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"stop",
+				"stopPulsating"
+			],
+			[
+				"isP",
+				"isPulsating"
+			],
+			[
+				"min",
+				"minHeight"
+			],
+			[
+				"title",
+				"_title"
+			],
+			[
+				"B",
+				"bindTo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 2554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 728,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5093,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"color pi",
+				"Color picker"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Snippet: color"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"insll",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"color sc",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"select",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/istvanp/Repositories/blog/_config.yml",
+		"/Users/istvanp/Repositories/blog/sass/style.scss",
+		"/Users/istvanp/Repositories/blog/_includes/footer.html",
+		"/Users/istvanp/Repositories/blog/_includes/header.html",
+		"/Users/istvanp/Repositories/blog/config.rb",
+		"/Users/istvanp/Repositories/blog/css/style.scss",
+		"/Library/WebServer/Documents/vendor/js/jquery-1.8.3.min.js",
+		"/Users/istvanp/Repositories/ice/app/views/includes/notifications.jade",
+		"/Users/istvanp/Repositories/ice/app/views/includes/sidebar.jade",
+		"/Users/istvanp/Repositories/ice/public/images/mic-muted.svg",
+		"/Users/istvanp/Repositories/ice/public/images/mic-disabled.svg",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/ice.coffee",
+		"/Users/istvanp/Repositories/ice/app/views/index.jade",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/interface.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/sidebar.styl",
+		"/Users/istvanp/Repositories/ice/app/assets/javascripts/app.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/notifications.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/interface.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/window.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/taskbar.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/sidebar.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/lib.coffee",
+		"/Users/istvanp/Repositories/ice/app/assets/stylesheets/app.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/taskbar.coffee",
+		"/Users/istvanp/Repositories/ice/public/images/edit.zip",
+		"/Users/istvanp/Repositories/ice/public/images/loading.gif",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/video.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/modal.styl",
+		"/Users/istvanp/Repositories/ice/app.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/notification.coffee",
+		"/Users/istvanp/Repositories/ice/public/images/info.svg",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/chat.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/lib.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/settings.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/toolbar.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/toaster.styl",
+		"/Users/istvanp/Repositories/ice/public/images/signout.svg",
+		"/Users/istvanp/Repositories/ice/public/images/signin.svg",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/modal.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/paper.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/proxy.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/canvas.coffee",
+		"/Users/istvanp/Repositories/ice/vendor/assets/javascripts/vendor.coffee",
+		"/Users/istvanp/Repositories/ice/vendor/assets/javascripts/raphael.serialize.js",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/toolbar.coffee",
+		"/Users/istvanp/Repositories/ice/app/views/includes/chat.jade",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/chat.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/model.coffee",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/video.coffee",
+		"/Users/istvanp/Repositories/ice/app/views/includes/video.jade",
+		"/Users/istvanp/Repositories/ice/app/views/includes/toolbar.jade",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/util.coffee",
+		"/Users/istvanp/Repositories/ice/vendor/assets/javascripts/knockout-2.2.0.js",
+		"/Users/istvanp/Repositories/ice/app/views/includes/_titlebar.jade",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/paper.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/grid.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/canvas.styl",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/proxy.styl",
+		"/Users/istvanp/Repositories/ice/public/images/pin.svg",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/grid.coffee",
+		"/Users/istvanp/Repositories/ice/app/views/includes/settings.jade",
+		"/Users/istvanp/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/istvanp/Repositories/ice/ice.sublime-project",
+		"/Users/istvanp/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/istvanp/Repositories/ice/ice",
+		"/Users/istvanp/Repositories/ice/public/images/test.svg",
+		"/Users/istvanp/Repositories/ice/public/images/freehand.svg",
+		"/Users/istvanp/Repositories/ice/vendor/assets/javascripts/raphael.js",
+		"/Users/istvanp/Repositories/ice/package.json",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/singleton.coffee",
+		"/Users/istvanp/Repositories/ice/public/images/rectangle.svg",
+		"/Users/istvanp/Repositories/ice/public/images/move.svg",
+		"/Users/istvanp/Repositories/ice/vendor/assets/javascripts/jquery.hotkeys.js",
+		"/Users/istvanp/Repositories/ice/public/images/text.svg",
+		"/Users/istvanp/Repositories/ice/public/images/ellipsis.svg",
+		"/Users/istvanp/Repositories/ice/public/images/cursor.svg",
+		"/Users/istvanp/Repositories/ice/vendor/assets/javascripts/jquery.event.drag.js",
+		"/Users/istvanp/Repositories/ice/lib/assets/stylesheets/settings",
+		"/Users/istvanp/Repositories/ice/vendor/assets/stylesheets/jquery-ui.css",
+		"/Users/istvanp/Repositories/ice/vendor/assets/stylesheets/vendor.styl",
+		"/Users/istvanp/Repositories/ice/public/images/noun_project_2891.svg",
+		"/Users/istvanp/Repositories/ice/public/images/stop.svg",
+		"/Users/istvanp/Repositories/ice/public/images/cam.svg",
+		"/Users/istvanp/Repositories/ice/public/images/mic.svg",
+		"/Users/istvanp/Repositories/ice/lib/assets/javascripts/window_manager.coffee"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/istvanp/Repositories/ice/lib/assets/javascripts",
+			"/Users/istvanp/Repositories/ice/lib/assets/stylesheets",
+			"/Users/istvanp/Repositories/ice/lib/assets/",
+			"/Users/istvanp/Repositories/ice/lib/assets/javascripts",
+			"/Users/istvanp/Repositories/ice/lib/assets/stylesheets",
+			"/Users/istvanp/Repositories/ice/,-/Users/istvanp/Repositories/ice/node_modules/*",
+			"/Users/istvanp/Repositories/ice/,-/Users/istvanp/Repositories/ice/node_modules/",
+			"/Users/istvanp/Repositories/ice/,-/Users/istvanp/Repositories/ice/node_modules",
+			"/Users/istvanp/Repositories/ice/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"border",
+			"\n        li.signin .icon\n            background-image url(/images/login.svg)",
+			"gear",
+			"appl",
+			"DEBUG",
+			"_keyFormat",
+			"minSize",
+			"contenteditable",
+			"CKEDITOR.inline",
+			"focus",
+			".dragging",
+			"each",
+			"pointer-events",
+			"parents",
+			"show",
+			"dbl",
+			"bbox2",
+			"deselect",
+			"#content",
+			"@proxy",
+			"height(",
+			"fill",
+			"colorChanged",
+			".colorChanged",
+			".stroke",
+			"rgbaSliders",
+			"rgbaSliders\nrgbaSliders",
+			"svg",
+			"btnClick",
+			"selectedColor",
+			"jwerty",
+			"f0f",
+			"f00",
+			"space",
+			"analyser",
+			"@analyser",
+			"z-index",
+			"clearSelection",
+			"Ele",
+			"minEleSize",
+			"@bound",
+			"pth.bbox",
+			"//",
+			"colW",
+			"@height",
+			"@width",
+			"origin",
+			"console",
+			"proxied",
+			"getSe",
+			"proxied",
+			"getBoundingBox(",
+			"getBoundingBox",
+			"@height",
+			"@width",
+			")\n",
+			"ellipsis",
+			"([a-z]+):\\s*([-=])>",
+			"([a-z])+:\\s*([-=])>",
+			"node",
+			"proxies",
+			"mousemove",
+			"console",
+			"#010101",
+			"origin",
+			"posY",
+			"posX",
+			"@origin[1]",
+			"@origin[0]",
+			"@p1[1]",
+			"@p1[0]",
+			"@delta[1]",
+			"@delta[0]",
+			"@posY",
+			"@posX",
+			"\n\n    $(document).on 'mouseup', (event) =>\n      for func in @events.mouseup\n        func.call(event.target, event)",
+			"@p1 =",
+			"null",
+			"\n        &.select\n            background-image url(/images/cursor.svg)",
+			"border",
+			"'\n",
+			"font",
+			"z-index",
+			"@value",
+			"move",
+			"\n    .maximize\n        line-height 28px\n        &:after\n            content: \"+\"",
+			"none",
+			"visi",
+			"hidden",
+			"+",
+			"minimized",
+			"pinned",
+			"pulsating",
+			"pulse",
+			"@bindTo",
+			"resizable-se",
+			"\n  add: (window) =>\n    @model.windows.push window.model",
+			"toggleMinimized",
+			"dock",
+			"or",
+			"ui-resizable-helper",
+			"say",
+			"pulsate",
+			"highli",
+			"highlight",
+			"ui-state-highlight",
+			"highlight",
+			"highl",
+			"',",
+			"dragging",
+			"indent",
+			"left"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_formatKey",
+			"ebox",
+			"sliders",
+			"toolClick",
+			"newColor",
+			"analyzer",
+			"analyser",
+			"minSize",
+			"@h",
+			"@w",
+			"@h",
+			"@height()",
+			"@width()",
+			"ellipse",
+			"$1: () $2>",
+			"object",
+			"#666",
+			"y",
+			"x",
+			"@offset.y",
+			"@offset.x",
+			"p1.y",
+			"p1.x",
+			"data.delta.y",
+			"data.delta.x",
+			"posY",
+			"posX",
+			"titleBar",
+			"pulse",
+			"pulsate",
+			"highlight",
+			"ui-state-highlight"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 2554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"info",
+				"public/images/info.svg"
+			],
+			[
+				"chat.st",
+				"lib/assets/stylesheets/chat.styl"
+			],
+			[
+				"chat",
+				"lib/assets/stylesheets/chat.styl"
+			],
+			[
+				"index",
+				"app/views/index.jade"
+			],
+			[
+				"ping",
+				"public/images/pin.svg"
+			],
+			[
+				"paper",
+				"lib/assets/javascripts/paper.coffee"
+			],
+			[
+				"video.st",
+				"lib/assets/stylesheets/video.styl"
+			],
+			[
+				"interface",
+				"lib/assets/stylesheets/interface.styl"
+			],
+			[
+				"taskbar",
+				"lib/assets/stylesheets/taskbar.styl"
+			],
+			[
+				"to",
+				"lib/assets/stylesheets/toolbar.styl"
+			],
+			[
+				"tool",
+				"lib/assets/stylesheets/toolbar.styl"
+			],
+			[
+				"inter",
+				"lib/assets/stylesheets/interface.styl"
+			],
+			[
+				"grid",
+				"lib/assets/stylesheets/grid.styl"
+			],
+			[
+				"interf",
+				"lib/assets/stylesheets/interface.styl"
+			],
+			[
+				"paper.co",
+				"lib/assets/javascripts/paper.coffee"
+			],
+			[
+				"paper.",
+				"lib/assets/javascripts/paper.coffee"
+			],
+			[
+				"recta",
+				"public/images/rectangle.svg"
+			],
+			[
+				"canvas.st",
+				"lib/assets/stylesheets/canvas.styl"
+			],
+			[
+				"move.",
+				"public/images/move.svg"
+			],
+			[
+				"toolbar",
+				"lib/assets/stylesheets/toolbar.styl"
+			],
+			[
+				"index.jade",
+				"app/views/index.jade"
+			],
+			[
+				"task",
+				"lib/assets/javascripts/taskbar.coffee"
+			],
+			[
+				"settings.jade",
+				"app/views/includes/settings.jade"
+			],
+			[
+				"interfa",
+				"lib/assets/stylesheets/interface.styl"
+			],
+			[
+				"wind",
+				"lib/assets/javascripts/window.coffee"
+			],
+			[
+				"video.ja",
+				"app/views/includes/video.jade"
+			],
+			[
+				"video",
+				"lib/assets/stylesheets/video.styl"
+			],
+			[
+				"video.c",
+				"lib/assets/javascripts/video.coffee"
+			],
+			[
+				"video.",
+				"app/views/includes/video.jade"
+			],
+			[
+				"interface.st",
+				"lib/assets/stylesheets/interface.styl"
+			],
+			[
+				"chat.",
+				"lib/assets/stylesheets/chat.styl"
+			],
+			[
+				"chat.ja",
+				"app/views/includes/chat.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,142 @@
+@import "compass";
+
+/* HTML5 enabler */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, summary {
+  display: block;
+}
+
+/* Global */
+body {
+    color: #333;
+    font: 1em/1.75em 'PT Serif', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    background-color: #e6f3ff;
+    color: #369;
+    padding: 0 3px;
+    text-decoration: none;
+    &:hover {
+        background-color: #58b;
+        color: #fff;
+    }
+    img {
+        border: none;
+    }
+}
+h1, h2, h3 {
+    font-family: 'Bitter', sans-serif;
+    font-weight: normal;
+    margin: 0.75em 0;
+}
+h1 {
+    font-size: 2em;
+    line-height: 1.15em;
+}
+h2 {
+    border-bottom: 1px solid #eee;
+    padding: 0 0 5px 0;
+}
+h3 {
+    font-weight: bold;
+}
+pre {
+    background: #eee;
+    @include border-radius(5px);
+    @include box-shadow(inset 0 2px 4px rgba(0,0,0,0.15));
+    padding: 5px 20px;
+    white-space: pre-wrap;
+}
+
+/* Layout */
+#header {
+    background: #000;
+    nav {
+        float: right;
+        ul {
+            display: inline;
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            float: left;
+        }
+        a {
+            background: none;
+            display: inline-block;
+            color: #fff;
+            padding: 2px 8px;
+        }
+        a:hover, .selected a {
+            background: #fff;
+            color: #000;
+            position: relative;
+            top: 2px;
+            text-shadow: 0 0 2px rgba(0,0,0,0.2);
+        }
+        .sep {
+            border-left: 1px solid #333;
+            height: 32px;
+            line-height: 32px;
+            margin: 0 2px;
+        }
+    }
+}
+#header-inner {
+    color: #fff;
+    height: 32px;
+    margin: 0 20%;
+}
+#avatar {
+    background: url(http://www.gravatar.com/avatar/f41e8b466bde7be410c149bf238c90dd.png?s=128)  0 0 no-repeat;
+    @include background-size(64px);
+    @include border-radius(32px);
+    @include box-shadow(inset 0 -5px 5px rgba(0,0,0,0.4));
+    float: left;
+    height: 64px;
+    margin-right: 10px;
+    width: 64px;
+}
+#name {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 10px 0 0;
+}
+#social {
+    display: inline;
+    a {
+        background: none;
+        color: #999;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        height: 28px;
+        margin: 0 3px;
+        padding: 0;
+        vertical-align: middle;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+#content {
+    clear: both;
+    padding-top: 10px;
+    margin: 0 20% 20px 20%;
+}
+article time {
+    color: #aaa;
+    float: left;
+    margin-right: 4px;
+}
+footer {
+    border-top: 1px solid #eee;
+    color: #999;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
