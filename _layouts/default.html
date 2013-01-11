@@ -12,7 +12,7 @@
         <link type="text/css" rel="stylesheet" href="/css/webfonts/ss-social.css" media="screen" />
         <link href='http://fonts.googleapis.com/css?family=Bitter:400,700|PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     </head>
-    <body>
+    <body class="{{ page.categories.first }}">
         <!--[if lt IE 9]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -20,16 +20,20 @@
             <div id="header-inner">
                 <nav>
                     <ul>
-                        <li><a href="/posts/">Posts</a></li>
+                        <li{% if page.categories.first == 'posts' %} class="selected"{% endif %}>
+                            <a href="/posts/">Posts</a>
+                        </li>
                         <li class="sep"></li>
-                        <li><a href="/projects/">Projects</a></li>
+                        <li{% if page.categories.first == 'projects' %} class="selected"{% endif %}>
+                            <a href="/projects/">Projects</a>
+                        </li>
                         <li class="sep"></li>
-                        <li><a href="/about">About</a></li>
+                        <li{% if page.title == 'About' %} class="selected"{% endif %}>
+                            <a href="/about">About</a>
+                        </li>
                     </ul>
                 </nav>
-                <a href="/">
-                    <div id="avatar"></div>
-                </a>
+                <a href="/" id="avatar"></a>
                 <div id="name">Istvan Pusztai</div>
                 <div id="social">
                     <a href="http://twitter.com/istvanp" class="ss-icon">twitter</a>
@@ -53,3 +57,4 @@
         </script>
     </body>
 </html>
+<!-- Last updated {{ site.time | date: '%B %d, %Y' }} -->

@@ -1,5 +1,7 @@
 @import "compass";
 
+$siteMargin: 0 20%;
+
 /* HTML5 enabler */
 article, aside, details, figcaption, figure, footer, header, hgroup,
 menu, nav, section, summary {
@@ -50,6 +52,10 @@ pre {
     padding: 5px 20px;
     white-space: pre-wrap;
 }
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
 
 /* Layout */
 #header {
@@ -88,16 +94,18 @@ pre {
 #header-inner {
     color: #fff;
     height: 32px;
-    margin: 0 20%;
+    margin: $siteMargin;
 }
 #avatar {
-    background: url(http://www.gravatar.com/avatar/f41e8b466bde7be410c149bf238c90dd.png?s=128)  0 0 no-repeat;
+    background: transparent url(http://www.gravatar.com/avatar/f41e8b466bde7be410c149bf238c90dd.png?s=128) center center no-repeat;
     @include background-size(64px);
     @include border-radius(32px);
     @include box-shadow(inset 0 -5px 5px rgba(0,0,0,0.4));
     float: left;
+    display: block;
     height: 64px;
     margin-right: 10px;
+    padding: 0;
     width: 64px;
 }
 #name {
@@ -125,18 +133,91 @@ pre {
 }
 #content {
     clear: both;
-    padding-top: 10px;
-    margin: 0 20% 20px 20%;
+    padding-top: 5px;
+    margin: $siteMargin;
+    margin-bottom: 20px !important;
 }
+footer {
+    border-top: 1px solid #eee;
+    color: #999;
+    clear: both;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Posts */
 article time {
     color: #aaa;
     float: left;
     margin-right: 4px;
 }
-footer {
-    border-top: 1px solid #eee;
-    color: #999;
-    margin-top: 20px;
-    padding: 10px 0;
-    text-align: center;
+
+/* Projects */
+.projects #content {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;   
+    }
+    li {
+        display: inline-block;
+        margin: 0 20px 20px 0;
+        text-align: center;
+        .thumb {
+            background: transparent;
+            border: 5px solid #fff;
+            @include border-radius(5px);
+            @include box-shadow(0 2px 5px rgba(0,0,0,0.2));
+            display: block;
+            height: 200px;
+            padding: 0;
+            width: 200px;
+            &:hover {
+                border-color: #e6f3ff;
+            }
+        }
+    }
+    .intro img {
+        border: 5px solid #fff;
+        @include border-radius(5px);
+        @include box-shadow(0 2px 5px rgba(0,0,0,0.3));
+        float: right;
+        margin: 0 0 10px 10px;
+    }
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    #header-inner, #content {
+        margin: 0 10%;
+    }
+}
+@media screen and (max-width: 680px) {
+    #header-inner, #content {
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #social {
+        display: block;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 439px) {
+    #name {
+        color: #000;
+        float: right;
+    }
+    #social {
+        float: right;
+        margin: 5px;
+    }
+    #content {
+        padding-top: 0;
+    }
+    .projects #content img {
+        height: 100px;
+        width: 100px;
+    }
 }
