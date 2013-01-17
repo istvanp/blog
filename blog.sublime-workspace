@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"bor",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"head",
+				"header-inner"
+			],
+			[
 				"in",
 				"inline"
 			],
@@ -127,35 +143,11 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 2554,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/post.html",
-			"settings":
-			{
-				"buffer_size": 728,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5093,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 367.0,
+		"height": 27.0,
 		"selected_items":
 		[
 			[
@@ -211,7 +203,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 521.0
 	},
 	"console":
 	{
@@ -228,12 +220,33 @@
 	},
 	"file_history":
 	[
+		"/Users/istvanp/Repositories/blog/_posts/projects/2013-01-10-soen287.md",
+		"/Users/istvanp/Dropbox/SOEN287/Tutorial 1/xhtml-1.0-strict.html",
+		"/Users/istvanp/Repositories/blog/projects/index.html",
+		"/Users/istvanp/Repositories/blog/css/style.scss",
+		"/Users/istvanp/Repositories/blog/_posts/projects/2011-01-10-tutor-with-me.md",
+		"/Users/istvanp/Repositories/blog/_posts/projects/2012-06-01-anime-news-network.md",
+		"/Users/istvanp/Repositories/blog/_layouts/project.html",
+		"/Users/istvanp/Repositories/blog/_layouts/default.html",
+		"/Users/istvanp/Repositories/blog/posts/index.html",
 		"/Users/istvanp/Repositories/blog/_config.yml",
+		"/Users/istvanp/Repositories/blog/css/style.css",
+		"/Users/istvanp/Repositories/blog/CNAME",
+		"/Users/istvanp/Repositories/blog/config.rb",
+		"/Users/istvanp/Repositories/blog/_site/css/style.scss",
+		"/Users/istvanp/Repositories/blog/index.html",
+		"/Users/istvanp/Repositories/blog/_includes/list-posts.html",
+		"/Users/istvanp/Repositories/blog/about/index.md",
+		"/Users/istvanp/Repositories/blog/_includes/posts.html",
+		"/Users/istvanp/Repositories/blog/_posts/posts/2013-01-10-hello-world.md",
+		"/Users/istvanp/Repositories/blog/_layouts/post.html",
+		"/Users/istvanp/Repositories/blog/projects.html",
+		"/Users/istvanp/Repositories/blog/favicon.ico",
+		"/Users/istvanp/Repositories/blog/_posts/articles/2013-01-10-lipsum.md",
+		"/Users/istvanp/Repositories/blog/blog.sublime-project",
 		"/Users/istvanp/Repositories/blog/sass/style.scss",
 		"/Users/istvanp/Repositories/blog/_includes/footer.html",
 		"/Users/istvanp/Repositories/blog/_includes/header.html",
-		"/Users/istvanp/Repositories/blog/config.rb",
-		"/Users/istvanp/Repositories/blog/css/style.scss",
 		"/Library/WebServer/Documents/vendor/js/jquery-1.8.3.min.js",
 		"/Users/istvanp/Repositories/ice/app/views/includes/notifications.jade",
 		"/Users/istvanp/Repositories/ice/app/views/includes/sidebar.jade",
@@ -320,7 +333,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/istvanp/Repositories/ice/lib/assets/javascripts",
@@ -504,89 +517,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_layouts/default.html",
-					"settings":
-					{
-						"buffer_size": 2554,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_layouts/post.html",
-					"settings":
-					{
-						"buffer_size": 728,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 5093,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								151,
-								151
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -635,6 +565,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"styl",
+				"css/style.scss"
+			],
+			[
+				"project",
+				"_layouts/project.html"
+			],
 			[
 				"info",
 				"public/images/info.svg"
@@ -778,6 +716,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 173.0,
+	"side_bar_width": 179.0,
 	"status_bar_visible": true
 }
